@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <header id="header">
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="navbar-brand">
+                <img src="logo.png" alt="logo" class="logo">
+            </div>
+            <div class="navbar-links">
+                <a href="#blog">Blog</a>
+                <a href="#quotes">Quotes</a>
+                <a href="#lando">Lando</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+        <button class="get-started-btn">GET LANDO!</button>
+    </nav>
+  </header>
+
+  <section id="blog">
+    <h1>
+      Coding at <div class="emphasis">lightspeed</div>
+    </h1>
+    <p class="aislada">
+      Push-button development environments hosted on your computer or in the cloud. Automate your developer workflow and share it with your team.
+    </p>
+    <button class="get-started-btn">GET LANDO!</button>
+    <div class="stats">
+      <div class="stat">
+          <div class="stat-number">50,000+</div>
+          <div class="stat-text">Delighted Devs</div>
+      </div>
+      <div class="stat">
+          <div class="stat-number">3,000+</div>
+          <div class="stat-text">GitHub Stars</div>
+      </div>
+    </div>
+    <div class="additional-content">
+      <div class="text-and-ide">
+        <div class="text-content">
+          <h1 class="additional-heading">
+            Start coding <div class="emphasis">instantly</div>
+          </h1>
+          <p class="additional-paragraph">
+            Lando creates your dev environment and seeds it. Because you don't have time to configure Docker, debug tooling, or any of that space snarge.
+          </p>
+          <div class="icon-container">
+            <img src="icons/mac.png" alt="mac">
+            <img src="icons/windows.png" alt="windows">
+            <img src="icons/linux.png" alt="linux" class="borderwhite">
+            <img src="icons/safari.png" alt="safari">
+            <img src="icons/chrome.png" alt="chrome">
+            <img src="icons/firefox.png" alt="firefox">
+          </div>
+        </div>
+        <!-- Mini IDE -->
+        <section id="mini-ide">
+          <div class="mini-ide-header">
+            <img src="icons/bg.png" alt="IDE Controls">
+          </div>
+          <pre><code class="language-javascript"># Create a new directory.
+mkdir drupal9 && cd drupal9
+            
+# Initialize a new Drupal 9 site.
+lando init --recipe=drupal9
+          
+# Start your engines.
+lando start</code></pre>
+        </section>
+      </div>
+    </div>
+    
+    <!-- New Ad Content Sections -->
+  <div class="ad-container" >
+    <div class="ad-content">
+      <img src="ad-contentimg/carepapa1.png" alt="Image 1" class="ad-image">
+      <div class="ad-text">
+        <h1 class="additional-heading">
+          Integrate with your<div class="emphasis">existing dev tools</div>
+        </h1>
+        <p class="additional-paragraph custom-width">Make yourself at home in the stars. Pull projects down from Lando's hosting partners. Use your favorite IDE. See CLI tools working out-of-the-box.</p>
+      </div>
+    </div>
+    <div class="ad-content reverse" >
+      <img src="ad-contentimg/carepapa2.png" alt="Image 2" class="ad-image">
+      <div class="ad-text">
+        <h1 class="additional-heading">
+          Easily share with<div class="emphasis">your team</div>
+        </h1>
+        <p class="additional-paragraph custom-width ">Distribute working dev environments to your whole team. Junior devs get a rocket boost while senior devs can tune settings to make their best astro racer.</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  
+
+  <section id="quotes">
+    <h2 class="quotes-heading">Trusted by over 300 companies and organizations</h2>
+    <div class="sponsors-logos">
+      <img src="sponsor/autodesk.png" alt="Sponsor 1" class="sponsor-logo">
+      <img src="sponsor/accenture.png" alt="Sponsor 2" class="sponsor-logo">
+      <img src="sponsor/cbs.png" alt="Sponsor 3" class="sponsor-logo1">
+      <img src="sponsor/cagov.png" alt="Sponsor 4" class="sponsor-logo">
+      <img src="sponsor/tata.png" alt="Sponsor 5" class="sponsor-logo">
+      <img src="sponsor/yale.png" alt="Sponsor 6" class="sponsor-logo">
+    </div>
+    <div class="quotes-blocks">
+      <div class="quote-box">
+        <div class="quote-text">
+          <div class="quote-sign">“</div>
+          <p class="quote">People love it when I introduce them to Lando.</p>
+          <p class="author">- Federal Contractor, US House of Representatives</p>
+        </div>
+      </div>
+      <div class="quote-box">
+        <div class="quote-text">
+          <div class="quote-sign">“</div>
+          <p class="quote">I don't have to handhold junior devs anymore... thank god in heaven.</p>
+          <p class="author">- Senior Developer, Blue State Digital</p>
+        </div>
+      </div>
+      <div class="quote-box">
+        <div class="quote-text">
+          <div class="quote-sign">“</div>
+          <p class="quote">Lando lets our devs just get to freaking work.</p>
+          <p class="author">- Systems Developer, University of California</p>
+        </div>
+      </div>
+      <div class="quote-box">
+        <div class="quote-text">
+          <div class="quote-sign">“</div>
+          <p class="quote">The [hosting partner] integrations are the bee's knees. </p>
+          <p class="author">- Enterprise Consultant</p>
+        </div>
+      </div>
+    </div>
+  </section> 
+
+  <section id="lando">
+    <h1>One small click for you...</h1>
+    <p>
+      ...one giant leap for developers everywhere. Download Lando and start accelerating your development workflow today.
+    </p>
+    <button class="get-started-btn1">GET LANDO!</button>
+  </section>
+
+  
+
+  <section id="contact">
+    <section id="form-section">
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <div class="form-group">
+          <img src="logo.png" alt="logo" class="form-logo">
+          <div class="input-button-group">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <button type="submit" id="submit">SUBSCRIBE</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </section>
+
+  <section id="additional-info">
+    <div class="info-container">
+      <div class="info-column left">
+        <h2>Open Source</h2>
+        <div class="info-links">
+            <div class="info-section">
+                <h3>Getting Started</h3>
+                <ul>
+                    <li><a href="#">Introduction</a></li>
+                    <li><a href="#">Basics</a></li>
+                    <li><a href="#">Installation</a></li>
+                    <li><a href="#">First App</a></li>
+                    <li><a href="#">Usage</a></li>
+                    <li><a href="#">Landofile</a></li>
+                </ul>
+            </div>
+            <div class="info-section">
+                <h3>Repos</h3>
+                <ul>
+                    <li><a href="#">Lando</a></li>
+                    <li><a href="#">Hyperdrive</a></li>
+                    <li><a href="#">Leia</a></li>
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Website</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </div>
+            <div class="info-section">
+                <h3>Community</h3>
+                <ul>
+                    <li><a href="#">Slack</a></li>
+                    <li><a href="#">GitHub Issues</a></li>
+                </ul>
+                <h3>Sponsor</h3>
+                <ul>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Patreon</a></li>
+                    <li><a href="#">OpenCollective</a></li>
+                </ul>
+            </div>
+            <div class="info-section">
+               
+            </div>
+        </div>
+    </div>
+    <div class="info-column right">
+        <h2>Company</h2>
+        <div class="info-links">
+            <div class="info-section">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <footer class="site-footer">
+      <div class="footer-content">
+          <p>&copy; 2023 Your Company Name. All rights reserved.</p>
+          <ul class="footer-links">
+              <li><a href="#terms">Terms</a></li>
+              <li><a href="#privacy">Privacy Policy</a></li>
+          </ul>
+      </div>
+  </footer>
+    </body>
+    </html> 
